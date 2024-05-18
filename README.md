@@ -1,13 +1,6 @@
-<style>
-.header {
-    margin: auto;
-}
-</style
-
-
-<div class="header">
+<div align=center>
     <h1>Wango-Game-Engine</h1>
-    <img src="Docs/WangoLogo.png">
+    <img src="Docs/WangoLogo.png" width=220 height=220>
 </div>
 <h2>Table of Content</h2>
 <ol>
@@ -28,7 +21,7 @@
 
 <h1 id="subject4">Getting Started</h1>
 
-<h1 id="subject5">Contribution/h1>
+<h1 id="subject5">Contribution</h1>
 
 <h1 id="subject6">Testing</h1>
 
