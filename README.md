@@ -1,5 +1,14 @@
-<h1>Wango-Game-Engine</h1>
+<style>
+.header {
+    margin: auto;
+}
+</style
 
+
+<div class="header">
+    <h1>Wango-Game-Engine</h1>
+    <img src="Docs/WangoLogo.png">
+</div>
 <h2>Table of Content</h2>
 <ol>
     <li><a href="#subject1">About</a></li>
