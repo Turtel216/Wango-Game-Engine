@@ -5,6 +5,8 @@ import graphics.window.events.EventListener;
 import javax.swing.*;
 import java.awt.*;
 
+//TODO determine optional and non-optional fields
+
 // super class for all windows
 public class Window extends JFrame {
 
@@ -14,12 +16,34 @@ public class Window extends JFrame {
     private EventListener eventListener;
 
     //TODO replace with static factory for better handling of optional fields
-    public Window(String title, int sizeX, int sizeY) {
-        this.title = title;
-        this.sizeX = sizeX;
-        this.sizeY = sizeY;
+    public Window(WindowBuilder windowBuilder) {
+        this.title = windowBuilder.getTitle();
+        this.sizeX = windowBuilder.getSizeX();
+        this.sizeY = windowBuilder.getSizeY();
     }
 
+    @Override
+    public String getTitle() {
+        return title;
+    }
+
+    public int getSizeX() {
+        return sizeX;
+    }
+
+    public int getSizeY() {
+        return sizeY;
+    }
+
+    public EventListener getEventListener() {
+        return eventListener;
+    }
+
+    public void setEventListener(EventListener eventListener) {
+        this.eventListener = eventListener;
+    }
+
+    // TODO replace Build() methods according to build design pattern
     public void createWindow() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle(title);
