@@ -1,4 +1,4 @@
 package physics.colliders;
 
-public class BoxCollider {
+public class Collider {
 }
