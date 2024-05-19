@@ -1,4 +1,4 @@
 package graphics.window.events;
 
-public interface EventListener {
+public interface EventListener extends java.util.EventListener {
 }
