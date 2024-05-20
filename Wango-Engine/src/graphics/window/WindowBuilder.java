@@ -3,6 +3,8 @@ package graphics.window;
 import configs.GameConfig;
 import graphics.window.events.EventListener;
 
+import javax.swing.*;
+
 //TODO determine optional and non-optional fields
 public class WindowBuilder {
     private GameConfig gameConfig;

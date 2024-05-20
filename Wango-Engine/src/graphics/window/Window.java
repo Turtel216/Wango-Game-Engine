@@ -1,5 +1,7 @@
 package graphics.window;
 
+import graphics.window.components.ScrollBar;
+import graphics.window.components.ScrollPane;
 import graphics.window.events.EventListener;
 
 import javax.swing.*;
@@ -51,4 +53,30 @@ public class Window extends JFrame {
         this.setLayout(new BorderLayout());
         this.setVisible(true);
     }
+
+    //Overloaded methods to add components to JFrame
+    public void addComponent(JButton button) {
+        this.add(button);
+    }
+
+    public void addComponent(JLabel text) {
+        this.add(text);
+    }
+
+    public void addComponent(JCheckBox checkBox) {
+        this.add(checkBox);
+    }
+
+    public void addComponent(JScrollPane scrollPane) {
+        this.add(scrollPane);
+    }
+
+    public void addComponent(JTextField textField) {
+        this.add(textField);
+    }
+
+    public void addComponent(JScrollBar scrollBar) {
+        this.add(scrollBar);
+    }
+
 }
