@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/wango-game-engine.dir/main.cpp.o" -o wango-game-engine

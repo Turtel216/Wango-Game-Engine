@@ -1,0 +1,3 @@
+/home/dimitrios/Documents/Dev/wango-game-engine/Wango-Engine/build/CMakeFiles/wango-game-engine.dir
+/home/dimitrios/Documents/Dev/wango-game-engine/Wango-Engine/build/CMakeFiles/edit_cache.dir
+/home/dimitrios/Documents/Dev/wango-game-engine/Wango-Engine/build/CMakeFiles/rebuild_cache.dir
