@@ -13,7 +13,7 @@
 </ol>
 
 <h1 id="subject1">About </h1>
-<p>Wango is an easy-to-use 2D game engine designed for the Java programming language. Its primary focus is on enabling the rapid development of 2D games with Java, making it an ideal tool for quick iteration and creativity during GameJams.</p>
+<p>Wango is an easy-to-use 2D game engine designed for the Go programming language. Its primary focus is on enabling the rapid development of 2D games with Go, making it an ideal tool for quick iteration and creativity during GameJams.</p>
 
 <h1 id="subject2">Technology Stack</h1>
 
